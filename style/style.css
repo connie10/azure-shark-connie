@@ -1,0 +1,118 @@
+/*GENERAL STYLES*/
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:1%;
+}
+/*fonts applied to entire body*/
+body{
+  background-color:#FFE4E1;
+  font-family: 'Noto Serif', serif;
+  font-size:12px;
+  letter-spacing:4px;
+  font-weight:normal;
+  text-align:center;
+  background-image:url('../images/backgroundimage.png');
+}
+
+section{
+  padding: 5%
+}
+
+  /*heading fonts & styles*/
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+header h2{
+  font-size:72px;
+}
+/* HEADER FORNTS & STYLES apply paddingor margin*/
+header{
+  background-image:url("https://unsplash.it/1400/300/?random");
+  background-position:center;
+  background-size:cover;
+  min-height:100vh;
+}
+/*ABOUT ME section styling*/
+#about-me{
+  background-color: grey;
+  padding: 4%;
+  color:#2F4F4F;
+  letter-spacing: 4px;
+}
+#about-me h2{
+  text-transform:uppercase;
+  padding-bottom: 3%;
+  font-size: 40px;
+  color:#2F4F4F;
+}
+#about-me div{
+  background:white;
+  padding:6%;
+}
+/*SKILLS SECTION styling*/
+#skills div{
+  padding:2%;
+  letter-spacing:3%;
+  color:#2F4F4F;
+}
+#skills h2{
+  font-size:40px;
+  text-transform: uppercase;
+  color:#2F4F4F;
+}
+#skills h3{
+  text-transform: uppercase;
+  font-size:20px;
+  padding:2%;
+}
+/*map*/
+iframe{
+  width:100%;
+}
+/*My experience section*/
+#experience{
+  color:#2F4F4F;
+}
+#experience h2{
+  font-size:40px;
+  text-transform: uppercase;
+  padding:2%;
+}
+#experience h3{
+  text-transform:capitalize;
+  font-size: 20px;
+  padding:2%;
+}
+#experience p{
+  padding:4%;
+  letter-spacing:3%;
+}
+/*form*/
+input, textarea, button{
+  display: block;
+  margin:2% auto;
+  padding:1%;
+  width:60%;
+  font-size: 14px;
+}
+#input,label{
+  text-transform: uppercase;
+}
+/*socials*/
+#social{
+  font-size: 14px;
+  text-decoration: none;
+}
+footer a{
+  transition: 2s;
+}
+footer a:hover{
+  font-size: 28px;
+  color:black;
+  text-decoration: overline;
+}

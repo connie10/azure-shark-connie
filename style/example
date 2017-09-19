@@ -1,0 +1,48 @@
+/*GENERAL STYLES*/
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+
+  body{
+  /*fonts applied to entire body*/
+  }
+
+  h1, h2, h3, h4, h5, h6{
+  /*heading fonts & styles*/
+  }
+
+  a{
+  /*remove underline * change color*/
+  }
+  a:hover{
+  */links*/
+  }
+
+  header{
+  background styles
+  apply padding or margin
+  }
+
+  nav{
+  styles for the nav
+  centre align
+  color background
+  }
+
+  nav a{
+  styles for links
+  }
+
+  form{
+  }
+
+  input{
+
+  }
+
+  button{
+
+  }
